@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "fffgfgfgfgfgfgfg"
+                echo "53 Rize"
                 sh 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
             }
